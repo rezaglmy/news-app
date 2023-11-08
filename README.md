@@ -1,5 +1,11 @@
 ## How to use
 
+### Create env file
+
+```
+cp .env.example .env
+```
+
 ### Installing Dependencies
 
 ```
