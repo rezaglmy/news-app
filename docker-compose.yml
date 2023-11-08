@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  news-app:
+    container_name: news-app
+    image: news-app
+    restart: always
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    volumes:
+      - ./news-app:/app

@@ -1,0 +1,33 @@
+{
+  "name": "news-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:docker": "docker compose up",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/cssinjs": "^1.17.2",
+    "@tanstack/react-query": "^5.7.2",
+    "antd": "^5.11.0",
+    "next": "latest",
+    "node-fetch": "^3.3.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^6.1.0",
+    "swr": "^2.2.4",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "babel-plugin-styled-components": "^2.1.4",
+    "typescript": "^5.1.6"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}

@@ -1,3 +1,19 @@
-# news-app
+## How to use
 
-test
+### Installing Dependencies
+
+```
+yarn install
+```
+
+### Running Locally
+
+```
+yarn dev
+```
+
+### Running Locally with docker
+
+```
+yarn dev:docker
+```
