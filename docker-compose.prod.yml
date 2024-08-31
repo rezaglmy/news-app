@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  news-app:
+    image: news-app-prod
+    build:
+      context: .
+      dockerfile: ./Dockerfile.prod
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000

@@ -1,0 +1,38 @@
+.ArticleItemContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  height: 100%;
+
+  &:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &:focus-visible {
+    outline: 3px solid;
+    outline-color: hsla(210, 98%, 48%, 0.5);
+    outline-offset: 2px;
+  }
+}
+
+.ArticleItemCardContent {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4;
+  padding: 16;
+  flex-grow: 1;
+
+  &:last-child {
+    padding-bottom: 16;
+  }
+}
+
+.ArticleItemTypography {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
