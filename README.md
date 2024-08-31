@@ -3,6 +3,9 @@
 - **News Api** (https://newsapi.org)
 - **The Guardian** (https://open-platform.theguardian.com)
 
+## Live demo
+https://reza-news-app.netlify.app
+
 ## Getting Started
 
 ```bash
