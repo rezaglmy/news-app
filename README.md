@@ -26,7 +26,7 @@ yarn dev
 ```
 
 ```bash
-# with docker
+# run with docker
 yarn docker:dev
 ```
 
@@ -38,6 +38,9 @@ yarn preview
 ```
 
 ```bash
-# with docker
+# run with docker
 yarn docker:preview
+
+# stop docker container
+yarn docker:stop 
 ```
