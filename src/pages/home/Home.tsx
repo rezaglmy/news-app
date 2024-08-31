@@ -1,5 +1,7 @@
 import Container from '@mui/material/Container';
 import { Articles } from '../../components/Articles';
+import Box from '@mui/material/Box';
+import { Search } from '@/components/Search';
 
 export default function Home() {
   return (
@@ -15,7 +17,10 @@ export default function Home() {
         p: 0,
       }}
     >
-      <Articles />
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        <Search />
+        <Articles />
+      </Box>
     </Container>
   );
 }
