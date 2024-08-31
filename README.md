@@ -44,3 +44,13 @@ yarn docker:preview
 # stop docker container
 yarn docker:stop 
 ```
+
+## Filter
+<p align="center">
+  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/filter-guide?raw=true" alt="Filter"/>
+</p>
+
+## Customization
+<p align="center">
+  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/customization-guide?raw=true" alt="Customization"/>
+</p>
