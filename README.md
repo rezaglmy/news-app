@@ -47,10 +47,10 @@ yarn docker:stop
 
 ## Filter
 <p align="center">
-  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/filter-guide?raw=true" alt="Filter"/>
+  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/filter-guide.png?raw=true" alt="Filter"/>
 </p>
 
 ## Customization
 <p align="center">
-  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/customization-guide?raw=true" alt="Customization"/>
+  <img src="https://github.com/rezaglmy/news-app/blob/main/public/images/customization-guide.png?raw=true" alt="Customization"/>
 </p>
