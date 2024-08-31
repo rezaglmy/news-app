@@ -2,9 +2,11 @@
   "files": [],
   "references": [
     {
+      /* app config */
       "path": "./tsconfig.app.json"
     },
     {
+      /* node config */
       "path": "./tsconfig.node.json"
     }
   ]
